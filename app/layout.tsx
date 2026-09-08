@@ -14,7 +14,12 @@ export const metadata: Metadata = {
     "The Insurance Agent works your renewals, drafts certificates for review, assembles submissions, compares policies side by side and chases claims status. It supports a licensed professional, it does not replace one.",
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
-  openGraph: { siteName: SITE_NAME, type: "website", locale: "en_US" },
+  openGraph: {
+    siteName: SITE_NAME,
+    type: "website",
+    locale: "en_US",
+    images: [{ url: `${SITE_URL}/images/og-image.jpg`, width: 1200, height: 630 }],
+  },
   other: {
     "geo.region": "US-NY",
     "geo.placename": "Roslyn Heights, NY",
