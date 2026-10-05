@@ -42,10 +42,10 @@ export const CAPABILITIES = [
 
 export const PROCESS = [
   {
-    phase: "Day 1",
+    phase: "15 min",
     num: "01",
-    title: "We Learn Your Agency",
-    body: "The lines you write, the carriers you place with, the states you are licensed in, and how the office is staffed. Then the important part: what may go out unattended, and where a licensed person must always take over.",
+    title: "You Tell It Your Agency",
+    body: "The lines you write, the carriers you place with, the states you are licensed in, and how the office is staffed. Then the important part: what may go out unattended, and where a licensed person must always take over. That is the questionnaire, and your agent is built from it and running in about fifteen minutes.",
   },
   {
     phase: "Week 1",
@@ -133,7 +133,7 @@ export const FAQS = [
   },
   {
     q: "How long does setup take?",
-    a: "Most agencies are live within two weeks. We configure it on your lines, your carriers, your states, your standing rules and your voice, then connect the systems the work already lives in.",
+    a: "About fifteen minutes. The questionnaire is the configuration: your lines, your carriers, your states, your standing rules and your voice. Your agent is built from it and running as soon as you connect the systems the work already lives in. Hands-on onboarding and 30 days of training are available as an add-on, and come with every custom deployment.",
   },
   {
     q: "Does it replace my CSR?",
